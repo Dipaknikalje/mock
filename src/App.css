@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+button{
+  background-color: #61dafb;
+  /* transition: width,height,20s, linear,ease-in-out 1s; */
+  
+}
+button:hover{
+  width:400px;
+  height:200px;
+  rotate: 360deg;
+  
+}
+div{
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example{
+  0%{
+    color:yellow
+  }
+  100%{
+    color:red
+  }
+  
+}
